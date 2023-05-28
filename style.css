@@ -1,0 +1,514 @@
+html {
+    scroll-behavior: smooth;
+    background-color: none;
+    margin: 0px;
+   
+    }
+body {
+    background-color: none;
+    color:rgb(255, 255, 255);
+    margin: 0px;
+    /* min-height: 100%; */
+}
+  
+header {
+
+    background:#01BDED; /*celeste peronista*/
+    background:#4b0082; /* indigo */
+    background:#6f00ff; /* electric indigo juampi */
+    background:#2E3A52;
+    /* background-repeat: no-repeat; */
+    /* background-position: center top; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    /* background-attachment: none; */
+    /* background-color:#003F8E; */
+    /* background-position: center center; */
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gotham', Gotham-black;
+    /* display: block;  */
+    /* justify-content: center;  */
+    /* mensaje p arriba - nueva incorporacion - el div con la foto y el div con la data centrados*/
+    /* align-items: center; */
+}
+
+nav {
+    background: linear-gradient(to right, #003F8E, black);
+    background:#003F8E; /*azul NFL*/
+    background:#005DA9; /*azul peronista*/
+    background:pink;
+    background:#FF99CC; /*rosa corel*/
+    background:#C09F6F; /*dorado corel*/
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    /* background-color:#F8F9FB; */
+    background-color: #21213b; /* fondo oscuro*/
+    background-color: #13142a;
+    background-color: #00152F;
+    
+    background-color: #1e1e1e;
+    background-color: #161515;
+    background-color: #202020;
+    background-color: #141414;
+    background:#01BDED; /*celeste peronista*/
+
+    background-color: #f5f5f5; /*gris muy suave*/
+    background-color: rgb(245, 245, 245); /*gris muy suave*/
+    
+    /* background-image: url("imagenes/fondo-juampis6c2.png"); */
+    /* background-repeat: repeat-y; */
+    /* background-size: contain; */
+    /* background-size: 100% 100%; */
+    /* background-size: cover; */
+    /* opacity: 0.4; no porque me transparencia todo seccion */
+    color:#ff0000;
+}
+
+
+section h2, li {
+    font-family: 'Montserrat', sans-serif;  
+    /* color:#aaabca; 
+    color:black; */
+    color: yellow;
+    color:#94d119; /* verde para el indigo*/
+    color:#C09F6F; /*dorado corel*/
+    margin: 3px 20px; 
+}
+
+section h4 {
+    /* font-family:'Anton', sans-serif; */
+    /* font-family:'Dancing Script', cursive; */
+    font-family: 'Righteous', cursive;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    color: orange;
+    color:#9099ac; /* gris veritas*/
+    margin: 20px; /* en 10px originalmente, y p esta en 50px*/
+    /* font-size: 25px; */
+}
+section p{
+    margin: 0 50px 20px; /* el del medio es margen de izquiera y derecha*/
+    font-size: 20px; /* 18px se considera normal para p */
+    text-align:justify;
+    /* text-indent: 70px; */
+}
+
+article {
+    width: 62%;
+    background-color: #ffffff;/*fondo blanco puro*/
+    background:#005DA9; /*azul peronista*/
+    background:#01BDED; /*celeste peronista*/
+    background:indigo;
+    background:#6f00ff; /* electric indigo juampi */
+    background:#2E3A52; /* gris veritas*/
+    background:#164B54; /* verde veritas*/
+    color: #000000;
+    color: white;
+    color: black;
+    color:white;
+    /* background-color: #F8F9FA; */
+
+    margin: 0 auto; /*  centrar el contenedor article*/
+    
+    /* border: 1px solid rgb(175, 171, 171);   */
+    border-radius: 5px;
+    box-shadow:7px 7px 15px rgb(206, 203, 203);
+
+}
+
+.arti-noticias {
+    background:#01BDED; /*celeste peronista*/
+    text-align: center;
+    
+}
+.arti-noticias h2{
+    color: white;
+}
+.arti-noticias p{
+    color: black;
+    text-indent: 25px;
+}
+
+/*sangria biografia*/
+.arti-sangria p{
+    text-indent: 25px;
+}
+
+.arti-corte p{
+
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+.ultimo-arti {
+    background: red;
+    text-align: center;
+}
+.ultimo-arti p {
+    text-align: center;
+  
+}
+
+.tamanio {
+    color: red; 
+    text-align: center; /* alinea tanto el texto como la foto */
+}
+
+.espaciado{    
+    line-height: 1.6; /* 1.6 es el interlineado recomendado*/ 
+}
+
+
+
+footer{
+    /* background-color: rgb(4, 4, 58); */
+    /* background-color:#003F8E; */
+    background: linear-gradient(to right, #003F8E, black);
+    background:#00152F;
+    background:#003F8E; /*azul NFL*/
+    
+    /* display:block; */
+    /* vertical-align: bottom; */
+    /* abajo va estilo3*/
+    background:#333333; /*gris mario bross*/
+    background:rgb(1, 189, 237); /*celeste peronista*/
+    background:#005DA9; /*azul peronista*/
+    background:rgb(1, 189, 237); /*celeste peronista*/
+    background:indigo;
+    background:#6f00ff; /* electric indigo juampi */
+    background:#2E3A52;
+    /* justify-content: space-between; */
+    text-align: center; /* como en footer*/
+    /* vertical-align: middle; */
+    /* justify-content: center; */
+    
+}
+footer a{
+    text-decoration: none;
+    color:rgb(255, 98, 199); /*rosa juampi*/
+    color:rgb(255, 255, 255);
+}
+
+footer a:hover{
+    color:rgb(1, 189, 237); /*celeste peronista*/
+    color: yellow;
+}
+
+.footer-fondo{
+    background-color: #005DA9; /*azul peronista*/;
+    background-color: pink;
+    background:#FF99CC; /*rosa corel*/
+    background:#C09F6F; /*dorado corel*/
+    color: white;
+    color:black;
+}    
+.modo-boton{
+    /* flex-direction: column; */
+    background-color: #801717;
+    /* align-items: center; */
+    /* vertical-align: bottom; */
+    
+}
+
+.qr-mensaje {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 20px; 
+    /* margin: 20px; */
+}
+.fecha-mensaje {
+    font-size: 15px;
+    color: rgb(211, 211, 211);
+    padding: none; 
+    /* margin: 20px; */
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: rgb(145, 141, 141);
+    padding: 1px 20px 10px 2px; 
+    /* margin: 20px; */
+}
+
+
+
+.noti {
+
+    background-color: #01BDED;
+    text-align: center;
+
+} 
+    
+.foto-carnet{
+    /* display: flex; */
+    /* display:block; */
+    /* margin: 15px 1px 5px 1px; */
+    text-align: center;
+
+}
+
+.foto-carnet img {
+    
+    height: 200px;  /*tamaño de la foto en el head - 200px */
+}
+
+.foto-carnet2{
+    display: block;
+    /* margin: 15px 1px 5px 1px; */
+
+}
+
+.foto-carnet2 img {
+    height: 200px; /* tamaño de la foto en el head y en el footer */
+}
+
+.foto-carnet2b{
+    display: block;
+    /* margin: 15px 1px 5px 1px; */
+
+}
+
+.foto-carnet2b img {
+    height: 60px; /* tamaño de la foto en el head y en el footer */
+}
+.foto-carnet3{
+    text-align: center; 
+    /* Simplemente deberías de asignarle la propiedad text-align: center a tu contenedor para que centre el enlace,  
+    ya que este es un elemento inline*/
+
+}
+/* lo que sigue hace responsive una imagen dentro de un contenedor (en esta caso div) */
+.foto-carnet3 img{
+    max-width: 95%; /* 100% ocupa todo el ancho del contenedor div */
+    height: auto;
+
+}
+.centra-contenedor {
+    background-color:red;
+    text-align: center;
+    
+}
+
+/* los 2 que siguen para hacer responsibe un video en un contenedor*/
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+
+/* .centra-contenedor iframe {
+    display:block; 
+}  */
+
+.info-per img { /*pequeño margen de los iconos*/
+    margin:  1px 5px;
+} 
+
+.info-per input {
+    margin: 2px 15px;
+    word-break: break-all;
+    background-color: rgb(82, 70, 70);
+    border: none;
+    border-radius: 3px;
+    color: rgb(160, 160, 157);
+    padding: 2px 5px; 
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+
+.info-per input:hover {
+    color: rgb(238, 241, 37);
+}
+
+.info-per p{ /*color margen etc del nombre y apellido*/
+    padding: 0px;
+    margin: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.info-per a{
+    display: flex;
+    padding: 0;
+    margin: 2px 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    align-items: center;
+}
+.info-per a:hover {
+    color: rgb(238, 241, 37);   
+}
+.nav-enlace {
+    display: inline-block;
+    color: white;
+    color:black;
+    padding: 10px 20px;
+    text-decoration: none; 
+}
+.nav-enlace:hover { /* cuando pasa el mouse cambia el color*/
+    color: rgb(1, 189, 243);
+    color:indigo;
+    color:white;
+}
+
+
+
+@media (max-width: 670px){
+   nav{
+        flex-direction: column;
+        align-items: center;
+    }      
+   
+    article{
+        width: 70%;
+    }
+
+   section p{
+        margin: 0 30px 20px;
+    }
+    .foto-carnet img {
+        height: 190px;
+    }
+   .foto-carnet2 img {
+        height: 150px;
+    }
+    
+}
+
+@media (max-width: 570px){
+     
+    article {
+        width: 90%;
+        /* background-color: rgb(255, 255, 255); 
+        margin: 0 auto; /*  centrar article*/
+        /* border: 1px solid rgb(175, 171, 171);   */
+        /* border-radius: 5px;
+        box-shadow:7px 7px 15px rgb(206, 203, 203);  */
+        
+    }
+    .foto-carnet img {
+        /* justify-content: center; */
+        height: 180px; /* antes era 200 */
+    }
+}
+
+@media (max-width: 444px){
+    /* header {
+        display:block;
+        justify-content: center; 
+        align-items: center;
+    } */
+    
+    .foto-carnet img {
+        /* justify-content: center; */
+        height: 130px;
+        
+        
+    }
+   
+    .foto-carnet2 img {
+        height: 100px; /* tamaño de la foto en el head */
+    }
+}
+
+#myBtn {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Posicion Fijada */
+    bottom: 20px; /* Coloca el botón abajo en la página */
+    right: 30px; /* Coloca el botón a 30px desde la derecha */
+    z-index: 99; /* 99 y asegurarse que no hay nada que lo superponga  */
+    border: none; /* Remueve bordes */
+    outline: none; /* Remueve contorno */
+    background-color: red; /* Fija un color de fondo */
+    color: white; /* Color del texto */
+    cursor: pointer; /* Agrega un puntero de mouse al pasar por el boton (hover) */
+    padding: 8px 10px 5px; /* Algo de padding */
+    border-radius: 50%; /* Redondeo de escquinas */
+    font-size: 18px; /*Aumento de tamaño de font */
+}
+  
+#myBtn:hover {
+    background-color: #555; /* Agrega a gris oscuro de fondo al pasar (hover) */
+   
+}
+
+@media (max-width:342px){
+    .foto-carnet img {
+        /* justify-content: center; */
+        height: 110px;
+        
+        
+    }
+  }
+@media (max-width:320px){
+  .info-per {
+        word-break: break-all;
+        color:aqua;
+    }
+}
+
+@media (max-width:289px){
+    .foto-carnet img {
+        /* justify-content: center; */
+        height: 90px;
+        
+        
+    }
+  }
+@media (max-width:215px){
+    section h2, li {
+        word-break: break-all;
+    }
+}
+
+@media (max-width:215px){
+
+    .foto-carnet img {
+        justify-content: center;
+        height: 80px;
+    }
+    .foto-carnet2 img {
+        height: 60px;
+    }
+    footer{
+        word-break: break-all;
+    }
+    footer img{
+        height: 60px;
+    }
+    
+    .nav-enlace {
+        word-break: break-all;
+    }
+}
+
+@media (max-width:82px){
+    .foto-carnet img {
+        justify-content: center;
+        height: 60px;
+    }
+    footer img{
+        height: 30px;
+    }
+    section h2, li {
+        word-break: break-all;
+    }
+}
+
+
+
